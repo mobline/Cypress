@@ -10,8 +10,6 @@ describe('CAS DE TEST EFOREX VERSION 3.2.0', () => {
     cy.get('#username').type('mohamed.traore@webbfontaine.com')
     cy.get('#password').type('Abce1234!@{enter}')
 
-    //cy.contains('.col-md-8 > .btn-success').click()
-    cy.get('[href="/tvf/tvfGen/show/595270"] > .glyphicon').click()
 
 
 
